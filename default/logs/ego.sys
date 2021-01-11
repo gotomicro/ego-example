@@ -1,0 +1,16 @@
+{"lv":"info","ts":1610287876,"msg":"init default logger","comp":"core.elog"}
+{"lv":"info","ts":1610287876,"msg":"init ego logger","comp":"core.elog"}
+{"lv":"info","ts":1610287876,"msg":"init config","comp":"core.econf","addr":"config/local.toml"}
+{"lv":"info","ts":1610287876,"msg":"init max procs","comp":"app","value":8}
+{"lv":"warn","ts":1610287876,"msg":"not init trace","value":"need trace config: [trace.jaeger] in config","comp":"app"}
+{"lv":"info","ts":1610287876,"msg":"start mysql","comp":"component.egorm","compName":"mysql.user","addr":"127.0.0.1:3306","name":"hr"}
+{"lv":"info","ts":1610287876,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1610287876,"msg":"start server","comp":"server.egin","compName":"server.governor","addr":"http://192.168.31.79:9003"}
+{"lv":"info","ts":1610287876,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/api/admin/users"}
+{"lv":"info","ts":1610287876,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/api/admin/users/:uid"}
+{"lv":"info","ts":1610287876,"msg":"add route","comp":"server.egin","compName":"server.http","method":"POST","path":"/api/admin/users"}
+{"lv":"info","ts":1610287876,"msg":"add route","comp":"server.egin","compName":"server.http","method":"PUT","path":"/api/admin/users/:uid"}
+{"lv":"info","ts":1610287876,"msg":"add route","comp":"server.egin","compName":"server.http","method":"DELETE","path":"/api/admin/users/:uid"}
+{"lv":"info","ts":1610287885,"msg":"stop server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1610287885,"msg":"stop server","comp":"server.egin","compName":"server.governor","addr":"http://192.168.31.79:9003"}
+{"lv":"info","ts":1610287886,"msg":"stop ego, bye!","comp":"app"}

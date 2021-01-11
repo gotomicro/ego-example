@@ -1,0 +1,10 @@
+debug = true
+contextDebug = false
+proType = "default"
+apiPrefix = "/api/admin"
+gitRemotePath = "https://github.com/gotomicro/egoctl-tmpls.git"
+gitLocalPath = "/Users/askuy/code/github/gotomicro/egoctl-tmpls"
+enableGitPull = false
+enableFormat = false
+[path]
+backend =  "./"
